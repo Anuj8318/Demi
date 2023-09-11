@@ -1,0 +1,187 @@
+.backGround
+    {
+      background: linear-gradient(to bottom, rgb(248, 248, 248), #c8f1c8);
+    }
+
+    .bttn {
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 50px;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 20px;
+        background: #6b747a;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border: none;
+        transition: background 0.2s, transform 0.2s, color 0.2s, box-shadow 0.2s; 
+      }
+      
+      .bttn:hover {
+        background: #3ac44d; 
+        color: #ffffff;
+        text-decoration: none;
+        transform: scale(1.03); 
+        box-shadow: 0px 0px 10px 2px rgba(0, 255, 0, 0.7);
+      }
+
+    .btun {
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 10px;
+        font-family: georgia;
+        color: #ffffff;
+        font-size: 20px;
+        background: #6b747a;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border: none;
+        transition: background 0.2s, transform 0.2s, color 0.2s, box-shadow 0.2s; 
+      }
+      
+      .btun:hover {
+        background: #7cd1e2; 
+        color: #ffffff;
+        text-decoration: none;
+        transform: scale(1.03); 
+        box-shadow: 0px 0px 10px 2px rgba(98, 151, 161, 0.7);
+      }
+
+.chng {
+        left: 100px;
+        position: relative;
+    }
+
+.background-image-e-waste {
+       background-image: url('./Resource/electronics.jpg');
+       background-size: cover; 
+       background-repeat: no-repeat;
+    }
+.background-image-recycle {
+       /*background-image: url('./cycleBack.jpg');*/
+       background-image: url('./Resource/cycleBacks.jpg');
+       background-size: cover; 
+       background-repeat: no-repeat; 
+    }
+.background-image-edu {
+       background-image: url('./Resource/educations.jpg');
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+a {
+    color: white;
+    text-decoration: none !important;
+  }
+.world
+    {
+      text-align: justify;
+    }
+.wrd{
+      border-radius: 8%;
+    }
+.text-body-emphasis {
+      --bs-text-opacity: 1;
+      color: rgb(78, 172, 78)!important;
+}
+.ab {
+    transition: transform 0.2s, color 0.2s; 
+  }
+.ab:hover {
+    transform: scale(1.03); 
+    color: rgb(78, 172, 78)!important;
+  }
+        
+.form-control:focus {
+    border-color: #00FF00;
+    box-shadow: 0 0 0 0.25rem rgba(0, 255, 0, 0.25);
+  }
+
+  ul.list-unstyled a:hover {
+    transform: scale(1.05); 
+  }
+.vid{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.logo-space {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo-space img {
+  margin-right: 10px;
+  position: relative;
+  left: 70px;
+  top: 60px;
+  border-radius: 100%;
+  mix-blend-mode: darken;
+}
+.logu{
+  mix-blend-mode: darken;
+}
+.d {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+
+.han {
+  background-color: rgb(245, 242, 241);
+}
+
+
+.btn3 {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 5px;
+  font-family: georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3b6658;
+  padding: 4px 10px 8px 8px;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s, transform 0.2s, color 0.2s, box-shadow 0.2s; 
+}
+
+.btn3:hover {
+  background: #4cae6d; 
+  color: #ffffff;
+  text-decoration: none;
+  transform: scale(1.03); 
+  box-shadow: 0px 0px 10px 2px rgba(107, 205, 135, 0.7);
+}
+
+.btn4 {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 5px;
+  font-family: georgia;
+  color: #ffffff;
+  font-size: 20px;
+  background: #6b747a;
+  padding: 4px 10px 8px 8px;
+  text-decoration: none;
+  border: none;
+  transition: background 0.2s, transform 0.2s, color 0.2s, box-shadow 0.2s; 
+}
+
+.btn4:hover {
+  background: #6d757b; 
+  color: #ffffff;
+  text-decoration: none;
+  transform: scale(1.03); 
+  box-shadow: 0px 0px 10px 2px rgba(109, 124, 127, 0.7);
+}
+.dd{
+  margin-right: 4%;  
+}
